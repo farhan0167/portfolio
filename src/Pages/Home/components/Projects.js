@@ -16,8 +16,7 @@ export default class Projects extends Component {
   render() {
     return (
      <Styles>
-         {console.log(ProjectsData)}
-        <Container className='projects-container'>
+        <Container id="projects-container"className='projects-container'>
             <h2 className='projects-container-header'>Projects Highlight</h2>
             <Row className='projects-container-row1'>
                 {ProjectsData.map(data =>(
@@ -51,7 +50,7 @@ export default class Projects extends Component {
 const Styles = styled.div`
 .projects-container{
     height: 100vh;
-    margin-top: 60px;
+    margin-top: 60px;  
 }
 .projects-container-header{
     text-align: center;

@@ -12,8 +12,8 @@ function NavBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
-                <Nav.Link className='nav-link-text' href="#home">Home</Nav.Link>
-                <Nav.Link className='nav-link-text' href="#link">Projects</Nav.Link>
+                <Nav.Link className='nav-link-text' href="#header-container">Home</Nav.Link>
+                <Nav.Link className='nav-link-text' href="#projects-container">Projects</Nav.Link>
             </Nav>
         </Navbar.Collapse>
       </Container>

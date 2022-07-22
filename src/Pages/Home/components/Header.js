@@ -17,7 +17,7 @@ export default function Header() {
   return (
    <React.Fragment>
        <Styles>
-       <Container className='header-container'>
+       <Container id='header-container' className='header-container'>
            <Row>
                 <h2 className='header-title header-text'>Hi, I am  <span>Ahmad Farhan Ishraq</span></h2>
            </Row>
