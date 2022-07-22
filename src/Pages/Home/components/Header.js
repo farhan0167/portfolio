@@ -19,7 +19,7 @@ export default function Header() {
        <Styles>
        <Container className='header-container'>
            <Row>
-                <h2 className='header-title header-text'>Hi, I am Ahmad Farhan Ishraq</h2>
+                <h2 className='header-title header-text'>Hi, I am  <span>Ahmad Farhan Ishraq</span></h2>
            </Row>
            <Row>
                 <p className='header-subtitle header-text'>A Full-Stack Software Developer</p>
@@ -55,6 +55,12 @@ const Styles = styled.div`
 .header-title{
     font-weight: 800;
     font-size: 4rem;
+}
+.header-title span{
+    background: rgb(2,0,36);
+    background: linear-gradient(132deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
 }
 .header-subtitle{
     margin-top: 40px;

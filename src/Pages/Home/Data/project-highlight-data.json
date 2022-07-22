@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "project_name": "Contactless Wallet",
+        "project_desc": "An app that allows users to store all their contact information in a digital wallet that mimics a business card wallet.",
+        "project_stack": ["React Native", "MySQL"],
+        "project_github": "https://github.com/farhan0167/Contact-Wallet-iOS",
+        "project_demo": "https://github.com/farhan0167/Contact-Wallet-iOS"
+    },
+    {
+        "id": 2,
+        "project_name": "To-do",
+        "project_desc": "Developed a CRUD application and is a revision to the Todo List Application I built 2 years ago using Flask",
+        "project_stack": ["React.JS", "MySQL", "Express.JS"],
+        "project_github": "https://github.com/farhan0167/react-todo",
+        "project_demo": "https://starlit-begonia-e1bdc3.netlify.app/"
+    },
+    {
+        "id": 3,
+        "project_name": "SubbE",
+        "project_desc": "A subletting application that connects subletters and sublettee's.",
+        "project_stack": ["React", "Firebase"],
+        "project_github": "https://github.com/farhan0167/sublet",
+        "project_demo": "https://stunning-madeleine-acbd8d.netlify.app/"
+    }
+]
