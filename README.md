@@ -1,72 +1,44 @@
-# [Live Demo](https://super-smakager-483cda.netlify.app/)
+## [Live Demo](https://super-smakager-483cda.netlify.app/)
 
-# Getting Started with Create React App
+# Personal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Built a new personal portfolio site as I prepare myself to graduate from NYU. This site is a substantial improvement from my previous [site](https://zen-lamport-73b8cd.netlify.app) which I developed using plain HTML, CSS and JS. The 
+new site was developed using React. 
 
-## Available Scripts
+### Things I learned:
+1. I built this site with the intention of maintaining it over the course of one to two years. Therefore I leveraged the whole [Thinking in React](https://reactjs.org/docs/thinking-in-react.html). While there is no backend, I nonetheless created two JSON files to host all the data. Once the design is set up, all I'll need to do is update the JSON files, and I'll essentially have everything rendered how I wanted it to. With my previous site, this task was very cumbersome. 
+2. Another unlikely thing I learnt was perhaps JS map function. In the [All Projects](https://www.ahmadfarhanishraq.com/#:~:text=All-,Projects,-Contactless%20Wallet) section, I had to display a data in two columns per row from a 1D data. I got stuck for a bit in trying to find a way to do this. The solution I came up with was creating a 2D array from the 1D array following: 
+```Javascript
+/*I have an array of objects. I want to map each of those objects in 2 cols per row*/ 
+      const data = this.state.data
+      
+      let rows = []
+      for(let i=0; i<data.length; i=i+2){
+          let temp = []
+          temp.push(data[i])
+          if(data[i+1] !== undefined){
+            temp.push(data[i+1])
+          }
+          rows.push(temp)
+      }
 
-In the project directory, you can run:
+```
+Now that I had the data in 2D representation, with each sub-array representing a row, I could finally display the All Projects section in the following way:
 
-### `npm start`
+```Javascript
+{row.map(col => (
+            <Col className='more-projects-col' lg={6} md={6} sm={12}>
+            <Card className='more-projects-cards'>
+                <a href={col.project_github} target='_blank'><Card.Title>{col.project_name}</Card.Title></a>
+                <Card.Text>{col.project_desc}</Card.Text>
+                <div className='more-projects-tags'>
+                {col.project_stack.map(tag =>(
+                    <span>{tag}</span>
+                ))}
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I hope you guys like my new site. Working as a Web Developer at EFL has certainly helped me in beefing up my front-end skills, and this site is a testament to my work there. 
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Inspiration:
+The design element of this site was inspired from Raj Shekhar's [cleanfolio-minimal](https://github.com/rajshekhar26/cleanfolio-minimal). Although I did not stick to the entire design, I went on to incorporate other ideas from other sites. For instance, the [All Projects](https://www.ahmadfarhanishraq.com/#:~:text=All-,Projects,-Contactless%20Wallet) section was inspired from Github's Pinned Repository layout. 
