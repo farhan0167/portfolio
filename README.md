@@ -11,7 +11,7 @@ new site was developed using React.
 ```Javascript
 /*I have an array of objects. I want to map each of those objects in 2 cols per row*/ 
       const data = this.state.data
-      
+      //data = [data1, data2, data3,.......,data_n-1, data_n]
       let rows = []
       for(let i=0; i<data.length; i=i+2){
           let temp = []
