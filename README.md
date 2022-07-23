@@ -26,7 +26,9 @@ new site was developed using React.
 Now that I had the data in 2D representation, with each sub-array representing a row, I could finally display the All Projects section in the following way:
 
 ```Javascript
-{row.map(col => (
+{rows.map(row =>(
+    <Row>
+        {row.map(col => (
             <Col className='more-projects-col' lg={6} md={6} sm={12}>
             <Card className='more-projects-cards'>
                 <a href={col.project_github} target='_blank'><Card.Title>{col.project_name}</Card.Title></a>
@@ -35,6 +37,12 @@ Now that I had the data in 2D representation, with each sub-array representing a
                 {col.project_stack.map(tag =>(
                     <span>{tag}</span>
                 ))}
+                </div>
+            </Card>
+        </Col>
+        ))}
+    </Row>
+))}
 ```
 
 
