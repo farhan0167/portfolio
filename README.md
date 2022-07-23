@@ -26,6 +26,7 @@ new site was developed using React.
 Now that I had the data in 2D representation, with each sub-array representing a row, I could finally display the All Projects section in the following way:
 
 ```Javascript
+// rows = [[data1,data2], [data3,data4],...,[data_n-1, data_n]]
 {rows.map(row =>(
     <Row>
         {row.map(col => (
