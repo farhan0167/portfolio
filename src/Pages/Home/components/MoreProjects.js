@@ -96,6 +96,14 @@ a{
     font-size: 14px;
     font-weight: 600;
 }
+@media only screen and (max-width: 600px){
+    .more-projects-col{
+        height: 300px;
+    }
+    .more-projects-cards{
+        height: 235px;
 
+    }
+}
 
 `
