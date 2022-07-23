@@ -56,7 +56,7 @@ export default class AboutMe extends Component {
 const Styles = styled.div`
 .about-me{
     max-width: 100%;
-    padding: 0;
+    
     margin-top: 10%;
 
 }

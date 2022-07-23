@@ -6,7 +6,7 @@ export default class Contact extends Component {
   render() {
     return (
       <Styles>
-          <Container className='about-me-container'>
+          <Container className='about-me-container' fluid>
               <h2 className='about-me-header'>Contact</h2>
               <Button id='email-button' href='mailto:ahmadfarhanishraq@gmail.com'>Email</Button>
           </Container>
@@ -17,6 +17,7 @@ export default class Contact extends Component {
 const Styles = styled.div`
 .about-me-container{
     max-width: 100%;
+    width: 100vw;
     background-color: #15202B;
     text-align: center;
     padding: 10%;
