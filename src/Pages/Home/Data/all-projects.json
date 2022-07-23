@@ -22,5 +22,21 @@
         "project_stack": ["React", "Firebase"],
         "project_github": "https://github.com/farhan0167/sublet",
         "project_demo": "https://stunning-madeleine-acbd8d.netlify.app/"
+    },
+    {
+        "id": 4,
+        "project_name": "Web Scrapping",
+        "project_desc": "Scrapped Leetcode.com to organize problems by their tags for interview preparation.",
+        "project_stack": ["BeautifulSoup", "Selenium", "Data", "Web-Scrapping"],
+        "project_github": "https://github.com/farhan0167/",
+        "project_demo": ""
+    },
+    {
+        "id": 5,
+        "project_name": "Object Detection Research",
+        "project_desc": "Conducted research and experiment on state of the art deep learning techniques for object detection.",
+        "project_stack": ["Machine Learning", "Object Detection", "Computer Vision", "Deep Learning"],
+        "project_github": "https://drive.google.com/file/d/1pFEctppdwrGKvuiOLi9VH89jplaKcEkn/view?usp=sharing",
+        "project_demo": ""
     }
 ]
