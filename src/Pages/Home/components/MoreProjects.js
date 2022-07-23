@@ -42,7 +42,7 @@ export default class MoreProjects extends Component {
                       {row.map(col => (
                           <Col className='more-projects-col' lg={6} md={6} sm={12}>
                           <Card className='more-projects-cards'>
-                              <a href='https://github.com/farhan0167/sublet'><Card.Title>{col.project_name}</Card.Title></a>
+                              <a href={col.project_github} target='_blank'><Card.Title>{col.project_name}</Card.Title></a>
                               <Card.Text>{col.project_desc}</Card.Text>
                               <div className='more-projects-tags'>
                                 {col.project_stack.map(tag =>(
