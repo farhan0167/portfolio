@@ -6,6 +6,7 @@ import Projects from './Pages/Home/components/Projects';
 import styled from 'styled-components'
 import {IoIosArrowDropup} from 'react-icons/io'
 import AboutMe from './Pages/Home/components/AboutMe';
+import MoreProjects from './Pages/Home/components/MoreProjects';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <NavBar/>
       <Header/>
       <Projects/>
+      <MoreProjects/>
       <AboutMe id='about-me'/>
       <a href='#header-container'><IoIosArrowDropup id='nav-up'/></a>
     </React.Fragment>

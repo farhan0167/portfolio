@@ -13,7 +13,13 @@ export default class Projects extends Component {
             data: []
         }
     }
+    componentDidMount(){
+        this.setState({
+            data: ProjectsData
+        })
+    }
   render() {
+      let ProjectsData = this.state.data
     return (
      <Styles>
         <Container id="projects-container"className='projects-container' fluid>
