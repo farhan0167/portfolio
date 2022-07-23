@@ -17,22 +17,22 @@ export default class Projects extends Component {
     return (
      <Styles>
         <Container id="projects-container"className='projects-container' fluid>
-            <h2 className='projects-container-header'>Projects Highlight</h2>
+            <h2 className='projects-container-header dark-thm'>Projects Highlight</h2>
             <Row className='projects-container-row1'>
                 {ProjectsData.map(data =>(
                     <Col key={data.id}>
                     <Card className='projects-container-cards' >
                     <Card.Body>
-                        <Card.Title className='card-title'>{data.project_name}</Card.Title>
-                        <Card.Text>{data.project_desc}</Card.Text>
+                        <Card.Title className='card-title dark-thm'>{data.project_name}</Card.Title>
+                        <Card.Text className='dark-thm'>{data.project_desc}</Card.Text>
                         <div className='projects-tech-stack'>
                             {data.project_stack.map(stack =>(
-                                <p>{stack}</p>
+                                <p className='dark-thm'>{stack}</p>
                             ))}
                         </div>
                         <div className="more-info">
-                            <a className='project-button' href={data.project_github} target='_blank' rel="noreferrer"><FaGithub className='project-links'/></a>
-                            <a className='project-button' href={data.project_demo} target='_blank' rel="noreferrer"><IoOpenOutline className='project-links'/></a>
+                            <a className='project-button' href={data.project_github} target='_blank' rel="noreferrer"><FaGithub className='project-links dark-thm'/></a>
+                            <a className='project-button' href={data.project_demo} target='_blank' rel="noreferrer"><IoOpenOutline className='project-links dark-thm'/></a>
                         </div>
                     </Card.Body>
                     </Card>
@@ -49,9 +49,11 @@ export default class Projects extends Component {
 
 const Styles = styled.div`
 .projects-container{
-
+    max-width: 100%;
+    background-color: #15202B;
     margin-top: 60px;
     margin-bottom:30px;
+    padding: 5.5%;
     
 }
 .projects-container-header{
@@ -64,6 +66,7 @@ const Styles = styled.div`
     padding-right:10%
 }
 .projects-container-cards{
+    background-color: #192734;
     height: 20rem;
     width: 20rem;
     padding: 10%;
@@ -103,6 +106,9 @@ const Styles = styled.div`
     height: 20px;
     width: 20px;
     color: black;
+}
+.dark-thm{
+    color: #FFFFFF;
 }
 
 `

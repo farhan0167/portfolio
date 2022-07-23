@@ -76,6 +76,7 @@ const Styles = styled.div`
     height:100%;
     width: 100%
 }
+
 .about-me-text{
     padding: 20%;
 }
@@ -88,22 +89,22 @@ const Styles = styled.div`
     font-size: 20px;
 }
 #about-me-col-efl{
-    background-color: #121F2D;
+    background-color: #192734;
 }
 #about-me-col-efl div p{
-    color: #94BEEA;
+    color: #FFFFFF;
 }
 #about-me-col-nyu{
-    background-color: #94BEEA;
+    background-color: #FFFFFF;
 }
 #about-me-col-nyu div p{
-    color: #121F2D;
+    color: #192734;
 }
 #about-me-col-cuny{
-    background-color: #121F2D;
+    background-color: #192734;
 }
 #about-me-col-cuny div p{
-    color: #94BEEA;
+    color: #FFFFFF;
 }
 
 `
