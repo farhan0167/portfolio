@@ -8,6 +8,8 @@ import {IoIosArrowDropup} from 'react-icons/io'
 import AboutMe from './Pages/Home/components/AboutMe';
 import MoreProjects from './Pages/Home/components/MoreProjects';
 import Contact from './Pages/Home/components/Contact';
+import Skills from './Pages/Home/components/Skills';
+import Footer from './Pages/Home/components/Footer';
 
 function App() {
   return (
@@ -18,8 +20,10 @@ function App() {
       <Projects/>
       <MoreProjects/>
       <AboutMe id='about-me'/>
+      <Skills/>
       <Contact/>
       <a href='#header-container'><IoIosArrowDropup id='nav-up'/></a>
+      <Footer/>
     </React.Fragment>
     </Styles>
   );

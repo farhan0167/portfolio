@@ -15,6 +15,8 @@ function NavBar() {
                 <Nav.Link className='nav-link-text' href="#header-container">Home</Nav.Link>
                 <Nav.Link className='nav-link-text' href="#projects-container">Projects</Nav.Link>
                 <Nav.Link className='nav-link-text' href="#about-me">About Me</Nav.Link>
+                <Nav.Link className='nav-link-text' href="#skills">Skills</Nav.Link>
+                <Nav.Link className='nav-link-text' href="#about-me-container">Contact</Nav.Link>
             </Nav>
         </Navbar.Collapse>
       </Container>

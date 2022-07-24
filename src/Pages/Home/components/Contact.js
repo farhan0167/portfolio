@@ -6,7 +6,7 @@ export default class Contact extends Component {
   render() {
     return (
       <Styles>
-          <Container className='about-me-container' fluid>
+          <Container id='about-me-container' className='about-me-container' fluid>
               <h2 className='about-me-header'>Contact</h2>
               <Button id='email-button' href='mailto:ahmadfarhanishraq@gmail.com'>Email</Button>
           </Container>
