@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-//import Skill from '../Data/skills.txt'
+//code adapted from https://github.com/rajshekhar26/cleanfolio/tree/main/src/components/Skills
 
 
 const Skills = () => {
