@@ -38,5 +38,13 @@
         "project_stack": ["Machine Learning", "Object Detection", "Computer Vision", "Deep Learning"],
         "project_github": "https://drive.google.com/file/d/1pFEctppdwrGKvuiOLi9VH89jplaKcEkn/view?usp=sharing",
         "project_demo": ""
+    },
+    {
+        "id": 6,
+        "project_name": "Blockchain Understanding",
+        "project_desc": "Built a blockchain implementation to understand the basic ideas of the tech",
+        "project_stack": ["Blockchain", "Proof-of-Work", "Cryptocurrency","Web3", "Flask"],
+        "project_github": "https://github.com/farhan0167/blockchain-understanding",
+        "project_demo": ""
     }
 ]
