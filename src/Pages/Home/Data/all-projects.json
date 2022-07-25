@@ -28,7 +28,7 @@
         "project_name": "Web Scrapping",
         "project_desc": "Scrapped Leetcode.com to organize problems by their tags for interview preparation.",
         "project_stack": ["BeautifulSoup", "Selenium", "Data", "Web-Scrapping"],
-        "project_github": "https://github.com/farhan0167/",
+        "project_github": "https://github.com/farhan0167/leetcode-scraping/",
         "project_demo": ""
     },
     {
