@@ -1,25 +1,11 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 //code adapted from https://github.com/rajshekhar26/cleanfolio/tree/main/src/components/Skills
+import SkillsData from '../Data/skills'
 
 
 const Skills = () => {
-    const Skill = [
-        'Web Development',
-        'Software Development',
-        'Machine Learning',
-        'Deep Learning',
-        'Investment Valuation',
-        'Database',
-        'Web Scrapping',
-        'Data Analysis',
-        'Git',
-        'Flask',
-        'Express.JS',
-        'React',
-        'Javascript',
-        'Python',
-      ]
+    const Skill = SkillsData
   if (!Skill.length) return null
 
   return (
