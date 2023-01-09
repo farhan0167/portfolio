@@ -19,7 +19,7 @@ function App() {
       <Header/>
       <Projects/>
       <MoreProjects/>
-      <AboutMe id='about-me'/>
+      
       <Skills/>
       <Contact/>
       <a href='#header-container'><IoIosArrowDropup id='nav-up'/></a>

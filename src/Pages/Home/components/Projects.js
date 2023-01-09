@@ -59,7 +59,9 @@ const Styles = styled.div`
     background-color: #15202B;
     margin-top: 60px;
     margin-bottom:30px;
-    padding: 5.5%;
+    padding-top: 5.5%;
+    padding-bottom: 5.5%;
+    padding-left: 10%;
     
 }
 .projects-container-header{

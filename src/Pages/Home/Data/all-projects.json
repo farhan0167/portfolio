@@ -1,6 +1,30 @@
 [
     {
         "id": 1,
+        "project_name": "Fake Review Generator",
+        "project_desc": "Deployed a Deep Learning model that generates fake review based off a short prompt. The application builds on top of the ML-Cybersecurity project,Fake Review Generation and Detection, from Fall 2022",
+        "project_stack": ["GPT2", "Flask", "Docker", "AWS", "EC2", "NGINX", "HTTPS"],
+        "project_github": "https://github.com/farhan0167/fake-review-detector",
+        "project_demo": ""
+    },
+    {
+        "id": 10,
+        "project_name": "Fake Review Generation and Detection",
+        "project_desc": "Researched the security threat of large generative models in the domain of fake reviews. We fine-tuned GPT-2 and GPT-3 on the Yelp Dataset to produce 12,000 fake reviews. We also fine-tuned a detection model based on Roberta",
+        "project_stack": ["GPT2", "GPT-3", "ChatGPT", "Roberta","Fake Reviews"],
+        "project_github": "https://github.com/farhan0167/AIGeneratedFakeReview",
+        "project_demo": ""
+    },
+    {
+        "id": 2,
+        "project_name": "File Transfer Application",
+        "project_desc": "Developed a application that sends large files over the local area network",
+        "project_stack": ["Python", "Socket API", "TCP", "Computer Networking"],
+        "project_github": "https://github.com/farhan0167/FileTransferOverTCP",
+        "project_demo": ""
+    },
+    {
+        "id": 3,
         "project_name": "Contactless Wallet",
         "project_desc": "An app that allows users to store all their contact information in a digital wallet that mimics a business card wallet.",
         "project_stack": ["React Native", "MySQL"],
@@ -8,7 +32,7 @@
         "project_demo": "https://github.com/farhan0167/Contact-Wallet-iOS"
     },
     {
-        "id": 2,
+        "id": 4,
         "project_name": "To-do",
         "project_desc": "Developed a CRUD application and is a revision to the Todo List Application I built 2 years ago using Flask",
         "project_stack": ["React.JS", "MySQL", "Express.JS"],
@@ -16,7 +40,7 @@
         "project_demo": "https://starlit-begonia-e1bdc3.netlify.app/"
     },
     {
-        "id": 3,
+        "id": 5,
         "project_name": "SubbE",
         "project_desc": "A subletting application that connects subletters and sublettee's.",
         "project_stack": ["React", "Firebase"],
@@ -24,7 +48,7 @@
         "project_demo": "https://stunning-madeleine-acbd8d.netlify.app/"
     },
     {
-        "id": 4,
+        "id": 6,
         "project_name": "Web Scrapping",
         "project_desc": "Scrapped Leetcode.com to organize problems by their tags for interview preparation.",
         "project_stack": ["BeautifulSoup", "Selenium", "Data", "Web-Scrapping"],
@@ -32,7 +56,7 @@
         "project_demo": ""
     },
     {
-        "id": 5,
+        "id": 7,
         "project_name": "Object Detection Research",
         "project_desc": "Conducted research and experiment on state of the art deep learning techniques for object detection.",
         "project_stack": ["Machine Learning", "Object Detection", "Computer Vision", "Deep Learning"],
@@ -40,7 +64,7 @@
         "project_demo": ""
     },
     {
-        "id": 6,
+        "id": 8,
         "project_name": "Blockchain Understanding",
         "project_desc": "Built a blockchain implementation to understand the basic ideas of the tech",
         "project_stack": ["Blockchain", "Proof-of-Work", "Cryptocurrency","Web3", "Flask"],

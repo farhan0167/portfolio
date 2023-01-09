@@ -1,19 +1,19 @@
 [
     {
         "id": 1,
-        "project_name": "Contactless Wallet",
-        "project_desc": "An app that allows users to store all their contact information in a digital wallet that mimics a business card wallet.",
-        "project_stack": ["React Native", "MySQL"],
-        "project_github": "https://github.com/farhan0167/Contact-Wallet-iOS",
-        "project_demo": "https://github.com/farhan0167/Contact-Wallet-iOS"
+        "project_name": "Fake Review Generator",
+        "project_desc": "Deployed a Deep Learning model that generates fake review based off a short prompt",
+        "project_stack": ["GPT2", "Flask", "Docker", "AWS"],
+        "project_github": "https://github.com/farhan0167/fake-review-detector",
+        "project_demo": ""
     },
     {
         "id": 2,
-        "project_name": "To-do",
-        "project_desc": "Developed a CRUD application and is a revision to the Todo List Application I built 2 years ago using Flask",
-        "project_stack": ["React.JS", "MySQL", "Express.JS"],
-        "project_github": "https://github.com/farhan0167/react-todo",
-        "project_demo": "https://starlit-begonia-e1bdc3.netlify.app/"
+        "project_name": "File Transfer Application",
+        "project_desc": "Developed a application that sends large files over the local area network",
+        "project_stack": ["Python", "Socket API", "TCP"],
+        "project_github": "https://github.com/farhan0167/FileTransferOverTCP",
+        "project_demo": ""
     },
     {
         "id": 3,
