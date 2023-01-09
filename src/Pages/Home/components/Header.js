@@ -34,7 +34,6 @@ export default function Header() {
             </Row>
             <Row>
                 <div className='header-resources'>
-                    <Button href='https://docs.google.com/document/d/1DAwISvmfKiAESPnJ4C2IKB_h-xXBDcRCC64_FqaANWE/edit?usp=sharing' target='_blank'>Resume</Button>
                     <FaGithub className='header-github' onClick={buttonGithub}/>
                     <FaLinkedin className='header-linkedin' onClick={buttonLinkedIn}/>
                     
