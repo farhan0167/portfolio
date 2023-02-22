@@ -26,7 +26,7 @@ export default class Projects extends Component {
             <h2 className='projects-container-header dark-thm'>Projects Highlight</h2>
             <Row className='projects-container-row1' >
                 {ProjectsData.map(data =>(
-                    <Col key={data.id} sm={12} md={4}>
+                    <Col key={data.id} sm={12} md={12} lg={4}>
                     <Card className='projects-container-cards' >
                     <Card.Body>
                         <Card.Title className='card-title dark-thm'>{data.project_name}</Card.Title>
