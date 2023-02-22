@@ -26,9 +26,9 @@ export default function Header() {
            </Row>
             <Row>
                 <p className='header-desc'>
-                I am a graduate student at New York University with a passion for Web applications and Software
-                Development. Currently, I work for NYU Stern's Endless Frontiers Lab as a Web Developer. I have experience
-                developing full-stack applications with React, Express and Python. I enjoy painting, photography and reading books
+                I am a graduate student at New York University with a passion for Web applications, Software
+                Development and Machine Learning. Currently, I work for NYU Stern's Endless Frontiers Lab as a Software Engineer. I have experience
+                developing full-stack data intensive applications with React, Express and Python. I enjoy painting, photography and reading books
                 on Economics and Finance.
                 </p>
             </Row>
