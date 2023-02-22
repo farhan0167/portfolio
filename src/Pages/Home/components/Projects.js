@@ -24,9 +24,9 @@ export default class Projects extends Component {
      <Styles>
         <Container id="projects-container"className='projects-container' fluid>
             <h2 className='projects-container-header dark-thm'>Projects Highlight</h2>
-            <Row className='projects-container-row1'>
+            <Row className='projects-container-row1' >
                 {ProjectsData.map(data =>(
-                    <Col key={data.id}>
+                    <Col key={data.id} sm={12} md={4}>
                     <Card className='projects-container-cards' >
                     <Card.Body>
                         <Card.Title className='card-title dark-thm'>{data.project_name}</Card.Title>
@@ -61,7 +61,7 @@ const Styles = styled.div`
     margin-bottom:30px;
     padding-top: 5.5%;
     padding-bottom: 5.5%;
-    padding-left: 10%;
+    
     
 }
 .projects-container-header{
@@ -75,8 +75,6 @@ const Styles = styled.div`
 }
 .projects-container-cards{
     background-color: #192734;
-    height: 20rem;
-    width: 20rem;
     padding: 10%;
     text-align: center;
     justify-content:center;
@@ -118,5 +116,6 @@ const Styles = styled.div`
 .dark-thm{
     color: #FFFFFF;
 }
+
 
 `

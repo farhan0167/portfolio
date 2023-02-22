@@ -40,7 +40,7 @@ export default class MoreProjects extends Component {
               {rows.map(row =>(
                   <Row>
                       {row.map(col => (
-                          <Col className='more-projects-col' lg={6} md={6} sm={12}>
+                          <Col className='more-projects-col' lg={6} md={12} sm={12}>
                           <Card className='more-projects-cards'>
                               <a href={col.project_github} target='_blank'><Card.Title>{col.project_name}</Card.Title></a>
                               <Card.Text>{col.project_desc}</Card.Text>
@@ -77,6 +77,10 @@ a{
 }
 .card-text{
     font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
 }
 .more-projects-col{
     height: 210px;
@@ -90,6 +94,7 @@ a{
 .more-projects-tags{
     position: absolute;
     bottom: 15px;
+    
 }
 .more-projects-tags span{
     margin-right: 10px;
@@ -103,6 +108,9 @@ a{
     .more-projects-cards{
         height: 235px;
 
+    }
+    .more-projects-tags span{
+        font-size: 11px;
     }
 }
 

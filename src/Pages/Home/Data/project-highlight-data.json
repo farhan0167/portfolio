@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "project_name": "File Transfer Application",
+        "project_name": "File Transfer App",
         "project_desc": "Developed a application that sends large files over the local area network",
         "project_stack": ["Python", "Socket API", "TCP"],
         "project_github": "https://github.com/farhan0167/FileTransferOverTCP",
