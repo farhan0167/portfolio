@@ -1,4 +1,12 @@
-[
+[   
+    {
+        "id": 11,
+        "project_name": "Tutor Bot-HackNYU 2023",
+        "project_desc": "Developed a discord bot in under 24 hours, that answers student queries in classroom acting as a 24/7 TA. The bot answers by sending student queries to a Flask endpoint which serves a GPT-3 model.",
+        "project_stack": ["GPT3", "Flask", "Discord.py"],
+        "project_github": "https://devpost.com/software/tutor-bot",
+        "project_demo": ""
+    },
     {
         "id": 1,
         "project_name": "Fake Review Generator",
