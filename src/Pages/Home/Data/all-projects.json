@@ -25,6 +25,14 @@
         "project_demo": ""
     },
     {
+        "id": 15,
+        "project_name": "How to protect your art from Generative AI",
+        "project_desc": "A demonstration of how you can use gradient based adversarial pertubation to fool convolutional neural networks to misclassify",
+        "project_stack": ["GPT-3", "React", "Flask"],
+        "project_github": "https://colab.research.google.com/drive/1hJhKsBXnsG-kFBxcaclN3eO7HaR97Weo?usp=sharing",
+        "project_demo": ""
+    },
+    {
         "id": 11,
         "project_name": "Tutor Bot-HackNYU 2023",
         "project_desc": "Developed a discord bot in under 24 hours, that answers student queries in classroom acting as a 24/7 TA. The bot answers by sending student queries to a Flask endpoint which serves a GPT-3 model.",
