@@ -1,6 +1,14 @@
 [
     {
         "id": 1,
+        "project_name": "Github Manager",
+        "project_desc": "Streamline SDLC lifecycle on Github with a web based filemanager",
+        "project_stack": ["React","Java", "Flask","Spring MVC"],
+        "project_github": "https://github.com/farhan0167/github-manager",
+        "project_demo": "https://github.com/farhan0167/git-manager-java"
+    },
+    {
+        "id": 2,
         "project_name": "Fake Review Generator",
         "project_desc": "Deployed a Deep Learning model that generates fake review based off a short prompt",
         "project_stack": ["GPT2", "Flask", "Docker", "AWS"],
@@ -8,19 +16,11 @@
         "project_demo": ""
     },
     {
-        "id": 2,
-        "project_name": "File Transfer App",
-        "project_desc": "Developed a application that sends large files over the local area network",
-        "project_stack": ["Python", "Socket API", "TCP"],
-        "project_github": "https://github.com/farhan0167/FileTransferOverTCP",
-        "project_demo": ""
-    },
-    {
         "id": 3,
-        "project_name": "SubbE",
-        "project_desc": "A subletting application that connects subletters and sublettee's.",
-        "project_stack": ["React", "Firebase"],
-        "project_github": "https://github.com/farhan0167/sublet",
-        "project_demo": "https://stunning-madeleine-acbd8d.netlify.app/"
+        "project_name": "Job Description Summarizer",
+        "project_desc": "Chrome extension to summarize job descriptions with the power of GPT 3.5",
+        "project_stack": ["GPT-3", "React", "Flask"],
+        "project_github": "https://github.com/farhan0167/job-desc-summarizer",
+        "project_demo": ""
     }
 ]
