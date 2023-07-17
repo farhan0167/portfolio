@@ -22,14 +22,20 @@ export default function Header() {
                 <h2 className='header-title header-text'>Hi, I am  <span>Ahmad Farhan Ishraq</span></h2>
            </Row>
            <Row>
-                <p className='header-subtitle header-text'>A Full-Stack Software Developer</p>
+                <p className='header-subtitle header-text'>A Full Stack Software Engineer</p>
            </Row>
             <Row>
                 <p className='header-desc'>
-                I am a graduate student at New York University with a passion for Web applications, Software
-                Development and Machine Learning. Currently, I work for NYU Stern's Endless Frontiers Lab as a Software Engineer. I have experience
-                developing full-stack data intensive applications with React, Express and Python. I enjoy painting, photography and reading books
-                on Economics and Finance.
+                I'm a passionate software engineer with a Masters in Computer Engineering from NYU Tandon. Proficient in Python, Node.js, 
+                and React, I craft full-stack software solutions that push boundaries. <br/> <br/>
+
+                My journey blends the cloud and AI/ML, backed by my AWS Certified Solutions Architect credential. 
+                As a software engineer at Endless Frontier Labs and a Deep Learning Researcher in Tandon's 
+                Vertically Integrated Projects M&A
+                team, I've explored the cutting-edge intersections of technology and business. <br/> <br/>
+
+                Join me on this exciting tech adventure where innovation knows no bounds. Let's transform 
+                ideas into reality and unleash the potential of software engineering.
                 </p>
             </Row>
             <Row>
@@ -47,7 +53,6 @@ export default function Header() {
 
 const Styles = styled.div`
 .header-container{
-    
     margin-top: 200px;
     padding-left: 10%;
     padding-right:10%;
