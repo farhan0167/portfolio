@@ -13,7 +13,7 @@ function NavBar({navbarBackground}) {
           <Container>
             <Navbar.Brand href="#home">AFI</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
-            <Navbar.Collapse id="responsive-navbar-nav">
+            <Navbar.Collapse className='toggle-nav' id="responsive-navbar-nav">
                 <Nav>
                     <Nav.Link className='nav-link-text' href="#header-container">Home</Nav.Link>
                     <Nav.Link className='nav-link-text' href="#projects-container">Projects</Nav.Link>

@@ -91,9 +91,7 @@ a{
     padding: 20px;
     height: 170px;
     position: relative;
-    box-shadow: 4px 5px 19px -12px rgba(0,0,0,0.8);
--webkit-box-shadow: 4px 5px 19px -12px rgba(0,0,0,0.8);
--moz-box-shadow: 4px 5px 19px -12px rgba(0,0,0,0.8);
+    box-shadow: 20px 32px 33px -27px rgba(0,0,0,0.1);
 }
 .more-projects-tags{
     position: absolute;

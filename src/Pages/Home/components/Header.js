@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import {Button, Container, Row} from 'react-bootstrap'
+import { Container, Row} from 'react-bootstrap'
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 

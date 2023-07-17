@@ -8,7 +8,7 @@ function Timeline() {
   return (
     <React.Fragment>
         <Styles>
-        <div style={{'padding':'10%'}}>
+        <div className='timeline-main-div'>
         <Chrono 
             items={items} 
             mode="VERTICAL_ALTERNATING"
@@ -41,11 +41,12 @@ function Timeline() {
 }
 
 const Styles = styled.div`
+.timeline-main-div{
+    padding:10%;
+}
 .my-card{
     padding: 10px;
-    box-shadow: 4px 5px 19px -12px rgba(0,0,0,0.8);
--webkit-box-shadow: 4px 5px 19px -12px rgba(0,0,0,0.8);
--moz-box-shadow: 4px 5px 19px -12px rgba(0,0,0,0.8);
+    box-shadow: 20px 32px 33px -27px rgba(0,0,0,0.1);
 }
 .my-card-title{
     color: black;
@@ -56,7 +57,14 @@ const Styles = styled.div`
 .my-card-subtitle{
     margin-top: 10px;
 }
-
+@media only screen and (max-width: 600px) {
+    .timeline-main-div{
+        padding:0;
+    }
+    .my-card{
+        padding: 1px;
+    }  
+}
 
 `
 
