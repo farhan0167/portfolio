@@ -20,7 +20,7 @@ function NavBar({navbarBackground}) {
                     <Nav.Link className='nav-link-text' href="#about-me">About Me</Nav.Link>
                     <Nav.Link className='nav-link-text' href="#skills">Skills</Nav.Link>
                     <Nav.Link className='nav-link-text' href="#about-me-container">Contact</Nav.Link>
-                    <Nav.Link className='nav-link-text' href="https://medium.com/@farhanishraq82" target='_blank'>Blog</Nav.Link>
+                    <Nav.Link className='nav-link-text' href="https://blog.ahmadfarhanishraq.com/" target='_blank'>Blog</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
           </Container>

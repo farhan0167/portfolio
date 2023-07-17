@@ -1,26 +1,25 @@
 [
     {
         "id": 1,
+        "project_name": "Amazon Price Tracker",
+        "project_desc": "Track product prices on Amazon, powered by an AWS Serverless framework",
+        "project_stack": ["React","Python", "Lambda","AWS"],
+        "project_github": "https://github.com/farhan0167/price-tracker",
+        "project_demo": "https://pricetracker.projects.ahmadfarhanishraq.com/"
+    },
+    {
+        "id": 1,
+        "project_name": "Stock Market",
+        "project_desc": "Stock Market Prediction Platform that combines both Stock predictions with news sentiment",
+        "project_stack": ["Big Data", "LSTM", "FinBERT", "Docker"],
+        "project_github": "https://github.com/farhan0167/big-data-project"
+    },
+    {
+        "id": 1,
         "project_name": "Github Manager",
         "project_desc": "Streamline SDLC lifecycle on Github with a web based filemanager",
         "project_stack": ["React","Java", "Flask","Spring MVC"],
         "project_github": "https://github.com/farhan0167/github-manager",
         "project_demo": "https://github.com/farhan0167/git-manager-java"
-    },
-    {
-        "id": 2,
-        "project_name": "Fake Review Generator",
-        "project_desc": "Deployed a Deep Learning model that generates fake review based off a short prompt",
-        "project_stack": ["GPT2", "Flask", "Docker", "AWS"],
-        "project_github": "https://github.com/farhan0167/fake-review-detector",
-        "project_demo": ""
-    },
-    {
-        "id": 3,
-        "project_name": "Job Description Summarizer",
-        "project_desc": "Chrome extension to summarize job descriptions with the power of GPT 3.5",
-        "project_stack": ["GPT-3", "React", "Flask"],
-        "project_github": "https://github.com/farhan0167/job-desc-summarizer",
-        "project_demo": ""
     }
 ]

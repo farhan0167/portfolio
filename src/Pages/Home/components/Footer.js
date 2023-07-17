@@ -22,7 +22,7 @@ const Styles = styled.div`
 .footer-container{
     max-width: 100%;
     width: 100vw;
-    background-color: #15202B;
+    background-color:#18191A;
     text-align: center;
     padding: 5%;
 }

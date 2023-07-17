@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import { Button, Container } from 'react-bootstrap'
+import { Button, Container, Form } from 'react-bootstrap'
 
 export default class Contact extends Component {
   render() {
@@ -18,7 +18,7 @@ const Styles = styled.div`
 .about-me-container{
     max-width: 100%;
     width: 100vw;
-    background-color: #15202B;
+    background-color:#18191A;
     text-align: center;
     padding: 10%;
 }
@@ -29,7 +29,7 @@ const Styles = styled.div`
 }
 #email-button{
     border: 1px solid #FFFFFF;
-    background-color: #192734;
+    background-color:#18191A;
     width: 100px;
     height: 50px;
     padding-top: 12px;

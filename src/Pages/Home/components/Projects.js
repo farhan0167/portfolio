@@ -56,7 +56,7 @@ export default class Projects extends Component {
 const Styles = styled.div`
 .projects-container{
     max-width: 100%;
-    background-color: #15202B;
+    background-color:#18191A;
     margin-top: 60px;
     margin-bottom:30px;
     padding-top: 5.5%;
@@ -73,8 +73,11 @@ const Styles = styled.div`
     padding-left: 10%;
     padding-right:10%
 }
+.projects-container-cards p{
+    color: #E4E6EB;
+}
 .projects-container-cards{
-    background-color: #192734;
+    background-color: #242526;
     padding: 10%;
     text-align: center;
     justify-content:center;

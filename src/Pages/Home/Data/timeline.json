@@ -1,0 +1,76 @@
+[
+    {
+        "title": "June 2023",
+        "cardTitle": "Got AWS Certified",
+        "cardSubtitle":"AWS Certified Solutions Architect Associates",
+         "url": "https://www.credly.com/badges/4107f7fe-4c70-4e04-9697-191a63f4ba1d/public_url"
+    },
+    {
+        "title": "May 2023",
+        "cardTitle": "Graduated New York University with a Masters",
+        "media": {
+          "type": "IMAGE",
+          "source": {
+            "url": "https://afi225-portfolio-assets.s3.amazonaws.com/gradphoto.jpeg"
+          }
+        }
+    },
+    {
+        "title": "April 2022",
+        "cardTitle": "Started Job at the Endless Frontier Labs",
+        "url": "https://endlessfrontierlabs.com/",
+        "cardSubtitle":"Software Engineer",
+        "cardDetailedText":"Contributed to the modernization of EFL's tech infrastructure and applications as a Software Engineer"
+    },
+    {
+        "title": "Sept 2021",
+        "cardTitle": "Started Graduate School at New York University",
+        "cardSubtitle":"Master of Science, Computer Engineering"
+    },
+    {
+        "title": "Aug 2021",
+        "cardTitle": "Won 1st Place in NYU Tandon Made Challenge",
+        "url": "https://engineering.nyu.edu/news/tandon-made-challenge-20#:~:text=Kshirsagar%2C%20Salman%20Rahman%2C-,Farhan%20Ishraq,-Wireless%20Power%20Supply",
+        "cardSubtitle":"Participated in a Startup Bootcamp with our team winning the challenge",
+        "cardDetailedText":"Built an end to end platform for a Smart Recycling Bin using Python, Node.js and some Arduinos. Our MVC was able to detect trash and classify them to their appropriate bins, aimed at reducing unsorted waste ending up in the wrong place."
+    },
+    {
+        "title": "June 2021",
+        "cardTitle": "Graduated Baruch College with Cum Laude Honors",
+        "cardSubtitle":"Bachelor of Business Adminstration, Information Systems and Mathematics",
+        "cardDetailedText":"Graduated with the Cecilia S Cohen Award, awared to an international student for their scholarship, leadership and community services",
+        "media": {
+            "type": "IMAGE",
+            "source": {
+              "url": "https://afi225-portfolio-assets.s3.amazonaws.com/baruchgrad.jpg"
+            }
+          }
+    },
+    {
+        "title": "May 2020",
+        "cardTitle": "Elected President of the International Student Organization",
+        "cardDetailedText":"This is the year of the pandemic, and I led the organization of around 8 board members across multiple timezones. Advocated for international students to gather resources to navigate a virtual Baruch College. Organized engaging Zoom events to create a bridge between the international student community and the local domestic students, leading to an increase in 20+ members."
+    },
+    {
+        "title": "Feb 2020",
+        "cardTitle": "Mentored at Tech Together Boston Hackathon",
+        "cardDetailedText":"Contributed back to the developer community by mentoring the worlds largest women and non-binary hackathon participant community."
+    },
+    {
+        "title": "Oct 2019",
+        "cardTitle": "Joined the International Student Organization at Baruch College",
+        "cardDetailedText":"I was the Head of the Events Committee leading the famous Baruch Events such as the Arabian Nights, Thanksgiving Dinner and Halloween Carnival"
+    },
+    {
+        "title": "16 Jan 2018",
+        "cardTitle": "The Journey Begins",
+        "cardSubtitle":"Wrote my first lines of HTML code",
+        "cardDetailedText":"Up until this point in my life, I was always intimidated by 'coding'. One day out of curiosity, after watching my peer build a website, I gave it a shot. Yes, these are the exact lines I wrote, and I saved it in my Notes. For the first time in my life, I felt like I could communicate with the world on a platform, the world wide web.",
+        "media": {
+            "type": "IMAGE",
+            "source": {
+              "url": "https://afi225-portfolio-assets.s3.amazonaws.com/firstcode.png"
+            }
+          }
+    }
+]

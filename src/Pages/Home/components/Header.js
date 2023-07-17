@@ -92,7 +92,7 @@ const Styles = styled.div`
     margin-left: 15px;
 }
 .header-github:hover{
-    color: #FFBF00;
+    color: #00ecff;
 }
 .header-linkedin{
     height: 40px;
@@ -100,7 +100,7 @@ const Styles = styled.div`
     margin-left: 15px;
 }
 .header-linkedin:hover{
-    color: #FFBF00;
+    color: #00ecff;
 }
 
 

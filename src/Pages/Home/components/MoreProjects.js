@@ -74,6 +74,7 @@ a{
 }
 .card-title{
     font-weight:700;
+    color: black;
 }
 .card-text{
     font-size: 14px;
@@ -90,6 +91,9 @@ a{
     padding: 20px;
     height: 170px;
     position: relative;
+    box-shadow: 4px 5px 19px -12px rgba(0,0,0,0.8);
+-webkit-box-shadow: 4px 5px 19px -12px rgba(0,0,0,0.8);
+-moz-box-shadow: 4px 5px 19px -12px rgba(0,0,0,0.8);
 }
 .more-projects-tags{
     position: absolute;
