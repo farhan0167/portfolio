@@ -32,7 +32,7 @@
         "cardTitle": "Won 1st Place in NYU Tandon Made Challenge",
         "url": "https://engineering.nyu.edu/news/tandon-made-challenge-20#:~:text=Kshirsagar%2C%20Salman%20Rahman%2C-,Farhan%20Ishraq,-Wireless%20Power%20Supply",
         "cardSubtitle":"Participated in a Startup Bootcamp with our team winning the challenge",
-        "cardDetailedText":"Built an end to end platform for a Smart Recycling Bin using Python, Node.js and some Arduinos. Our MVC was able to detect trash and classify them to their appropriate bins, aimed at reducing unsorted waste ending up in the wrong place."
+        "cardDetailedText":"Built an end to end platform for a Smart Recycling Bin using Python, Node.js and some Arduinos. Our MVC was able to detect trash and classify them to their appropriate bins, aimed at reducing unsorted waste from ending up in the wrong place."
     },
     {
         "title": "June 2021",
@@ -49,7 +49,7 @@
     {
         "title": "May 2020",
         "cardTitle": "Elected President of the International Student Organization",
-        "cardDetailedText":"This is the year of the pandemic, and I led the organization of around 8 board members across multiple timezones. Advocated for international students to gather resources to navigate a virtual Baruch College. Organized engaging Zoom events to create a bridge between the international student community and the local domestic students, leading to an increase in 20+ members."
+        "cardDetailedText":"This is the year of the pandemic, and I led the organization of around 8 board members across multiple timezones. Advocated for international students and gathered resources to navigate a virtual Baruch College. Organized engaging Zoom events to create a bridge between the international student community and the local domestic students, leading to an increase in 20+ members."
     },
     {
         "title": "Feb 2020",
