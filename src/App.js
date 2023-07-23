@@ -12,6 +12,7 @@ import Skills from './Pages/Home/components/Skills';
 import Footer from './Pages/Home/components/Footer';
 import Highlights from './Pages/Home/components/Highlights';
 import Timeline from './Pages/Home/components/Timeline';
+import ChatApp from './Pages/Home/components/ChatApp';
 
 function App() {
   const [navbarBackground, setNavbarBackground] = useState('transparent');
@@ -47,6 +48,7 @@ function App() {
       <Highlights/>
       <Header/>
       <Timeline/>
+      <ChatApp/>
       <Projects/>
       <MoreProjects/>
       
